@@ -1,0 +1,56 @@
+.patient-list-header {
+  width: 83.3%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: absolute;
+  top: 7.9%;
+  border-bottom: 1px solid rgba(201, 201, 201, 0.274);
+}
+
+.header-title {
+  color: #0d53fc;
+  font-weight: 500;
+}
+
+.right-arrow-icon {
+  font-size: 20px;
+  margin: 0 10px;
+  color: #999;
+}
+
+.header-patient-name {
+  color: #999;
+  font-weight: 500;
+}
+
+.print-btn {
+  border: 0;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  color: #777;
+  border: 1px solid rgba(179, 177, 177, 0.349);
+  margin: 0 7px;
+}
+
+.patient-edit-btn {
+  border: 0;
+  background-color: #ffffff;
+  width: 130px;
+  height: 36px;
+  color: #777;
+  border: 1px solid rgba(179, 177, 177, 0.349);
+}
+
+.edit-icon {
+  margin-top: -4px;
+  font-size: 15px;
+}
+
+.patient-edit-btn > span {
+  margin-left: 7px;
+  font-weight: 600;
+  font-size: 14px;
+}

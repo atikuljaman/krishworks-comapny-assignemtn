@@ -1,0 +1,93 @@
+.patient-profile {
+  background-color: white;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+.patient-name {
+  color: #333;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.patient-email {
+  color: #777;
+  font-size: 12px;
+  margin-top: -5px;
+}
+
+.patient-body {
+  display: flex;
+  align-items: center;
+}
+
+.divider {
+  width: 1px;
+  height: 35px;
+  background-color: rgba(119, 119, 119, 0.397);
+  margin: 0 30px;
+}
+
+.patient-visit {
+  text-align: center;
+  color: #333;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-size: 17px;
+}
+
+.patient-visit > small {
+  color: #777;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.message-btn {
+  width: 80%;
+  padding: 4px 0;
+  margin: 15px 0 5px 0;
+  border: 1px solid rgba(119, 119, 119, 0.397);
+  background-color: #ffffff;
+  color: #333;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.patient-details {
+  background-color: white;
+  width: 100%;
+  height: 250px;
+  padding: 20px 15px;
+}
+
+.patient-data {
+  border-bottom: 1px solid rgba(156, 156, 156, 0.199);
+}
+
+.data-title {
+  color: rgba(119, 119, 119, 0.767);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.data-value {
+  margin-top: -12px;
+  font-weight: 500;
+  color: rgba(34, 34, 34, 0.849);
+  font-size: 13px;
+  margin-bottom: 8px;
+}

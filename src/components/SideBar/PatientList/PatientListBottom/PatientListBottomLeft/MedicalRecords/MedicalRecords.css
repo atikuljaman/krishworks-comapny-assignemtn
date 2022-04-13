@@ -1,0 +1,11 @@
+.medical-records {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.medical-records h3 {
+    text-transform: uppercase;
+    color: #333;
+}

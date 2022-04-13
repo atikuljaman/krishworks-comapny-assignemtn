@@ -1,0 +1,174 @@
+.appointments-div {
+  overflow-y: scroll;
+  margin: 10px 0;
+}
+
+.upcoming-appointments {
+  height: 240px;
+  background-color: #eff1f7;
+  margin-top: 12px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.upcoming-appointments-header {
+  height: 45px;
+  border-bottom: 1px solid rgba(201, 201, 201, 0.274);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.upcoming-appointments-header-title {
+  color: rgba(51, 51, 51, 0.87);
+  font-size: 12px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.upcoming-appointments-header-select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 188px;
+  height: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.upcoming-appointments-header-select-title {
+  color: #777;
+  font-size: 11px;
+  font-weight: 700;
+  margin: 0;
+  margin-right: 5px;
+}
+
+.select-icon {
+  font-size: 20px;
+  color: #777;
+  margin-right: 5px;
+}
+
+.upcoming-appointments-body {
+  position: relative;
+  height: auto;
+  background-color: #eff1f7;
+}
+
+.elements {
+  width: 3.2px;
+  height: 100%;
+  background-image: linear-gradient(to top, #2067ff, #88beff);
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+
+.appointments-details-container {
+  padding: 16px 20px 2px 60px;
+}
+
+.appointments-details {
+  width: 100%;
+  height: 75px;
+  background-color: #fffdfd;
+  margin-bottom: 15px;
+  box-shadow: -0px 2px 10px -5px rgba(0, 0, 0, 0.2);
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.elements-circle {
+  width: 18px;
+  height: 18px;
+  border: 3px solid #49c496;
+  border-radius: 50%;
+  margin-top: 60px;
+  margin-left: -8px;
+  background-color: white;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+}
+
+.appointment-date {
+  color: #263446;
+  margin-top: 8px;
+}
+
+.appointment-time {
+  color: #777;
+  font-size: 10px;
+  margin-top: 8px;
+}
+
+.appointment-divider {
+  width: 1px;
+  height: 30px;
+  background-color: rgba(119, 119, 119, 0.397);
+}
+
+.appointment-treatment {
+  color: #777;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.appointment-treatment-status {
+  color: #263446;
+  margin-top: -16px;
+  font-weight: 700;
+}
+
+.appointment-dentist,
+.appointment-nurse {
+  color: #263446;
+  margin-top: -13px;
+  font-weight: 700;
+  font-size: 12.5px;
+}
+
+.appointment-note {
+  display: flex;
+  align-items: center;
+}
+
+.note-icon {
+  color: #0d53fc;
+  font-size: 18px;
+}
+
+.appointment-note {
+  color: #0d53fc;
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0 0 0 4px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(175, 175, 175, 0.384);
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c6cdd8;
+}

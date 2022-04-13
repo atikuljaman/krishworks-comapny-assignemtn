@@ -1,0 +1,90 @@
+.navigation-container {
+  width: 83.4%;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-bottom: 1px solid rgba(201, 201, 201, 0.274);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.navigation-left,
+.navigation-right {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-user-icon {
+  font-size: 28px;
+  color: #0d53fc;
+}
+
+.navigation-user-name {
+  margin: 0 0 0 7px;
+  color: #333;
+}
+
+.search-container {
+  width: 250px;
+  height: 40px;
+  border: 1px solid rgba(179, 177, 177, 0.445);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.search-input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: 0;
+  padding: 0 10px;
+  outline-style: none;
+}
+
+.upload-btn {
+  width: 40px;
+  height: 40px;
+  background-color: #0d53fc;
+  border: 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 15px;
+}
+
+.notification-btn {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid rgba(179, 177, 177, 0.349);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.plus-icon {
+  color: #fff;
+}
+
+.notification-icon {
+  font-size: 20px;
+  color: #888;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: #eb5757;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

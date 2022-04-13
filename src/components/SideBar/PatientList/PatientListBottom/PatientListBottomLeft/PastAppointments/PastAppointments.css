@@ -1,0 +1,11 @@
+.past-appointments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.past-appointments h3 {
+    text-transform: uppercase;
+    color: #333;
+}

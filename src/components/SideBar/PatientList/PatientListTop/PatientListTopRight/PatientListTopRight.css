@@ -1,0 +1,83 @@
+.patient-list-top-right {
+  width: 100%;
+  height: 270px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 0 5px;
+}
+
+.notes-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px 0px 20px;
+}
+
+.notes-header-title {
+  font-weight: 700;
+  color: #333;
+}
+
+.see-all-btn {
+  color: #0d53fc;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.notes-body {
+  width: 100%;
+  height: 150px;
+  background-color: #eff1f7;
+  padding: 20px;
+  position: relative;
+}
+
+.note {
+  font-size: 14px;
+  margin: 0 0 5px 0;
+  color: #555;
+  font-weight: 500;
+}
+
+.save-note-btn {
+  background-color: #0d53fc;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px 14px;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+
+.notes-footer {
+  padding: 10px 25px;
+}
+
+.notes-footer-title {
+  font-size: 14px;
+  margin: 0 0 5px 0;
+  color: #555;
+}
+
+.notes-footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.notes-footer-bottom > span {
+  color: #777;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.notes-footer-avatar {
+  color: #0d53fc;
+  font-size: 18px;
+  margin-right: 5px;
+}

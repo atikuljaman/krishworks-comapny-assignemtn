@@ -1,0 +1,34 @@
+.doctor-container {
+  padding: 0 20px;
+  width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 30px;
+}
+
+.doctor-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.doctor-details {
+  display: flex;
+  align-items: center;
+}
+
+.doctor-name {
+  margin: 0;
+  margin-left: 10px;
+}
+
+.designation {
+  color: #777;
+}
+
+.down-arrow {
+  font-size: 25px;
+  color: #555;
+}

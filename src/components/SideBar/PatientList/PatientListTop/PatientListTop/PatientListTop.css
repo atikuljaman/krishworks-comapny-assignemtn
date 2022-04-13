@@ -1,0 +1,7 @@
+.patient-list-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 140px;
+}
